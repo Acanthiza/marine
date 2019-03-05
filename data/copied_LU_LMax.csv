@@ -1,0 +1,140 @@
+CAABcode,COMMON NAME,Max length ,Family,Genus,Species
+23607001,Giant Cuttlefish,600,Sepiidae,Sepia,apama
+23617005,Southern Calamari Squid,400,Loliginidae,Sepioteuthis,australis
+23659921,Octopus,NA,Octopodidae,NA,sp
+24325002,Bat-wing seaslug,NA,Gastropteridae,Sagaminopteron,ornatum
+28820001,Red Rock Lobster,NA,Palinuridae,Jasus,edwardsii
+28835e3,Hermit crab,NA,Paguridae,PAGURIDAE,sp
+28880010,Spider crab,NA,Majidae,Leptomithrax,gaimardii
+28880911,Spider crab,NA,Majidae,MAJIDAE,sp
+28911010,Rough Rock Crab,NA,Portunidae,Nectocarcinus,integrifrons
+37007001,Port Jackson Shark,1650,Heterodontidae,Heterodontus,portusjacksoni
+37010003,White Shark,6000,Lamnidae,Carcharodon,carcharias
+37013004,Varied Carpetshark,910,Parascylliidae,Parascyllium,variolatum
+37013005,Rusty Carpetshark,800,Parascylliidae,Parascyllium,ferrugineum
+37015003,Gulf Catshark,560,Scyliorhinidae,Asymbolus,vincenti
+37015902,Catshark,600,Scyliorhinidae,Asymbolus,sp
+37017001,Gummy Shark,1750,Triakidae,Mustelus,antarcticus
+37017008,School Shark,1800,Triakidae,Galeorhinus,galeus
+37027001,Western Shovelnose Ray,790,Rhinobatidae,Aptychotrema,vincentiana
+37027011,Banjo Shark,900,Rhinobatidae,Trygonorrhina,dumerilii
+37035001,Smooth Stingray,2000,Dasyatidae,Dasyatis,brevicaudata
+37038903,Stingaree,500,Urolophidae,Urolophus,sp
+37039001,Southern Eagle Ray,1000,Myliobatidae,Myliobatis,tenuicaudatus
+37060006,Green Moray,1500,Muraenidae,Gymnothorax,prasinus
+37117001,Sergeant Baker,600,Aulopidae,Latropiscis ,purpurissatus
+37206e3,Gobie,NA,Gobiesocidae,GOBIESOCIDAE,sp
+37206910,Clingfish,30,Gobiesocidae,Parvicrepis,sp
+37224003,Bearded Rock Cod,640,Moridae,Pseudophycis,barbata
+37224005,Largetooth Beardie,500,Moridae,Lotella,rhacina
+37234001,Southern Garfish,520,Hemiramphidae,Hyporhamphus,melanochir
+37246911,"Hardyheads, Silversides, Whitebait",120,Atherinidae,NA,sp
+37247001,Surf Sardine,75,Notocheiridae,Iso,rhothophilus
+37258004,Bight Redfish,460,Berycidae,Centroberyx,gerrardi
+37258005,Swallowtail,360,Berycidae,Centroberyx,lineatus
+37282900,Seahorses,300,Syngnathidae,Hippocampus,sp
+37287003,Bighead Gurnard Perch,480,Neosebastidae,Neosebastes,pandus
+37287004,Gulf Gurnard Perch,300,Neosebastidae,Neosebastes,bougainvillii
+37287005,Common Gurnard Perch,400,Neosebastidae,Neosebastes,scorpaenoides
+37287947,Gurnard,NA,Neosebastidae,NEOSEBASTIDAE,sp
+37287952,Waspfish,140,Tetrarogidae,Tetrarogidae,sp
+37296037,Southern Bluespotted Flathead,900,Platycephalidae,Platycephalus,speculator
+37296913,Flathead,900,Platycephalidae,Platycephalus,sp
+37311003,Barber Perch,250,Serranidae,Caesioperca,rasor
+37311005,Harlequin Fish,750,Serranidae,Othos,dentex
+37311037,Banded Seaperch,300,Serranidae,Hypoplectrodes,nigroruber
+37316009,Southern Blue Devil,400,Plesiopidae,Paraplesiops,meleagris
+37316017,Yellowhead Hulafish,150,Plesiopidae,Trachinops,noarlungae
+37321020,Western Striped Grunter,280,Terapontidae,Pelates,octolineatus
+37327002,Longfin Pike,840,Dinolestidae,Dinolestes,lewini
+37327032,Wood's Siphonfish,60,Apogonidae,Siphamia,cephalotes
+37327033,Southern Cardinalfish,140,Apogonidae,Vincentia,conspersa
+3733e4,Whiting unidentified,NA,Sillaginidae,NA,sp
+37330001,King George Whiting,720,Sillaginidae,Sillaginodes,punctatus
+37330002,Southern School Whiting,330,Sillaginidae,Sillago,bassensis
+37330904,Whiting,360,Sillaginidae,Sillago,sp
+37337003,Yellowtail Scad,500,Carangidae,Trachurus,novaezelandiae
+37337006,Yellowtail Kingfish,2500,Carangidae,Seriola,lalandi
+37337007,Samsonfish,1800,Carangidae,Seriola,hippos
+37337063,Skipjack Trevally,260,Carangidae,Pseudocaranx,wrighti
+37337924,Trevally,800,Carangidae,Pseudocaranx,sp
+37344001,Australian Herring,400,Arripidae,Arripis,georgianus
+37344004,Western Australian Salmon,750,Arripidae,Arripis,truttaceus
+37349001,Silverbelly,180,Gerreidae,Parequula,melbournensis
+37353001,Snapper,1300,Sparidae,Pagrus,auratus
+37355029,Bluespotted Goatfish,350,Mullidae,Upeneichthys,vlamingii
+37357001,Bigscale Bullseye,280,Pempherididae,Pempheris,multiradiata
+37357003,Rough Bullseye,210,Pempherididae,Pempheris,klunzingeri
+37357903,Bullseye,280,Pempherididae,Pempheris,sp
+37361001,Silver Drummer,800,Kyphosidae,Kyphosus,sydneyanus
+37361002,Footballer Sweep,200,Scorpididae,Neatypus,obliquus
+37361003,Moonlighter,300,Scorpididae,Tilodon,sexfasciatus
+37361004,Sea Sweep,400,Scorpididae,Scorpis,aequipinnis
+37361008,Zebrafish,500,Kyphosidae,Girella,zebra
+37361015,Banded Sweep,350,Scorpididae,Scorpis,georgiana
+37365066,Western Talma,200,Chaetodontidae,Chelmonops,curiosus
+37366001,Old Wife,500,Enoplosidae,Enoplosus,armatus
+37367003,Longsnout Boarfish,610,Pentacerotidae,Pentaceropsis,recurvirostris
+37372006,Scalyfin,200,Pomacentridae,Parma,victoriae
+37375002,Silver Spot,330,Chironemidae,Chironemus,maculosus
+37376001,Marblefish,600,Aplodactylidae,Aplodactylus,arctidens
+37377001,Magpie Perch,400,Cheilodactylidae,Cheilodactylus,nigripes
+37377004,Queen Fish,900,Cheilodactylidae,Nemadactylus,valenciennesi
+37377005,Dusky Morwong,1200,Cheilodactylidae,Dactylophora,nigricans
+37382002,Snook,1000,Sphyraenidae,Sphyraena,novaehollandiae
+37382005,Blackspot Barracuda,700,Sphyraenidae,Sphyraena,forsteri
+37384e3,Wrasse,NA,Labridae,LABRIDAE,sp
+37384002,Western Blue Groper,1750,Labridae,Achoerodus,gouldii
+37384003,Bluethroat Wrasse,500,Labridae,Notolabrus,tetricus
+37384018,Castelnau's Wrasse,110,Labridae,Dotalabrus,aurantiacus
+37384020,Senator Wrasse,400,Labridae,Pictilabrus,laticlavius
+37384022,Brownspotted Wrasse,500,Labridae,Notolabrus,parilus
+37384023,Rosy Wrasse,200,Labridae,Pseudolabrus,rubicundus
+37384025,Blackspotted Wrasse,130,Labridae,Austrolabrus,maculatus
+37384040,Southern Maori Wrasse,400,Labridae,Ophthalmolepis,lineolatus
+37384057,Foxfish,480,Labridae,Bodianus,frenchii
+37384105,Snakeskin Wrasse,130,Labridae,Eupetrichthys,angustipes
+37385001,Herring Cale,400,Odacidae,Olisthops,cyanomelas
+37385004,Slender Weed Whiting,140,Odacidae,Siphonognathus,attenuatus
+37385005,Little Weed Whiting,160,Odacidae,Neoodax,balteatus
+37385006,Pencil Weed Whiting,140,Odacidae,Siphonognathus,beddomei
+37385009,Blue Weed-whiting,400,Odacidae,Haletta,semifasciata
+37385010,Rainbow Cale,300,Odacidae,Heteroscarus,acroptilus
+37385011,Sharpnose Weed Whiting,120,Odacidae,Siphonognathus,caninis
+37385012,Longtail Weed Whiting,130,Odacidae,Siphonognathus,tanyourus
+37385905,Weed Whiting,250,Odacidae,Siphonognathus,sp
+37390002,Spotted Grubfish,200,Pinguipedidae,Parapercis,ramsayi
+37390004,Wavy Grubfish,120,Pinguipedidae,Parapercis,haackei
+37415015,Blackthroat Threefin,65,Tripterygiidae,Helcogramma,decurrens
+37439001,Barracouta,2000,Gempylidae,Thyrsites,atun
+37465001,Spinytail Leatherjacket,460,Monacanthidae,Acanthaluteres,brownii
+37465002,Toothbrush Leatherjacket,320,Monacanthidae,Acanthaluteres,vittiger
+37465003,Mosaic Leatherjacket,600,Monacanthidae,Eubalichthys,mosaicus
+37465004,Horseshoe Leatherjacket,600,Monacanthidae,Meuschenia,hippocrepis
+37465005,Velvet Leatherjacket,310,Monacanthidae,Meuschenia,scaber
+37465007,Rough Leatherjacket,300,Monacanthidae,Scobinichthys,granulatus
+37465008,Brownstriped Leatherjacket,320,Monacanthidae,Meuschenia,australis
+37465025,Southern Pygmy Leatherjacket,90,Monacanthidae,Brachaluteres,jacksonianus
+37465034,Gunn's Leatherjacket,600,Monacanthidae,Eubalichthys,gunnii
+37465035,Yellowstriped Leatherjacket,300,Monacanthidae,Meuschenia,flavolineata
+37465036,Sixspine Leatherjacket,550,Monacanthidae,Meuschenia,freycineti
+37465037,Bluefin Leatherjacket,290,Monacanthidae,Thamnaconus,degeni
+37465040,Bluelined Leatherjacket,350,Monacanthidae,Meuschenia,galii
+37465043,Bridled Leatherjacket,140,Monacanthidae,Acanthaluteres,spilomelanurus
+37465055,Bluetail Leatherjacket,420,Monacanthidae,Eubalichthys,cyanoura
+37465060,Stars-and-stripes Leatherjacket,210,Monacanthidae,Meuschenia,venusta
+37465902,Leatherjacket,600,Monacanthidae,Meuschenia,sp
+37465903,Leatherjacket,NA,Monacanthidae,NA,sp
+37465903,Leatherjacket,NA,Monacanthidae,MONACANTHIDAE,sp
+37465905,Leatherjacket (Acanthaluteres),600,Monacanthidae,Acanthaluteres,sp
+37466001,Ornate Cowfish,150,Ostraciidae,Aracana,ornata
+37466003,Shaw's Cowfish,200,Ostraciidae,Aracana,aurita
+37466015,Western Smooth Boxfish,300,Ostraciidae,Anoplocapros,amygdaloides
+37466903,Cowfish,200,Ostraciidae,Aracana,sp
+37467002,Ringed Toadfish,250,Tetraodontidae,Omegophora,armilla
+37467048,Bluespotted Toadfish,180,Tetraodontidae,Omegophora,cyanopunctata
+37469001,Globefish,400,Diodontidae,Diodon,nicthemerus
+37990078,Fish unknown,NA,NA,Fish,sp
+37990078,Fish unknown,NA,NA,Fish,unk
+40048003,Black faced cormorant,NA,Phalacrocoracidae,Phalacrocorax,fuscescens
+41116019,Common Bottlenose dolphin,NA,Delphinidae,Tursiops,truncatus

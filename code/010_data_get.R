@@ -14,4 +14,10 @@
     
   datAlgae <- read_excel(list.files("data/",pattern = ".xlsx",full.names = TRUE),sheet=3) %>%
     dplyr::rename(Sanctuary = InsideOutside) %>%
-    dplyr::mutate(Subregion = as.character(Subregion))
+    dplyr::mutate(Subregion = as.character(Subregion)
+                  , points = SumOfAbundance
+                  , Macroalgae = if_else(grepl("macro",tolower(Species)),points,0)
+                  , SiteName = `Site Name`
+                  , Year = SYear
+                  )
+  

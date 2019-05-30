@@ -19,19 +19,29 @@
     tidyr::expand(rep = 1:nReplicates) %>%
     dplyr::ungroup() %>%
     dplyr::mutate(row = row_number()
-                  , count = map_dbl(site,~(rpois(1,15+siteAdj)))
+                  , value = map_dbl(site,~(rpois(1,15+siteAdj)))
                   , obs = factor(obs)
                   , site = factor(site)
                   )
   
-  ggplot(dat,aes(count,site)) + geom_density_ridges()
+  datRes <- dat %>%
+    dplyr::group_by(site) %>%
+    dplyr::summarise(n = n()
+                     , nCheck = nrow(as_tibble(mod))
+                     , modMedian = quantile(value,0.5)
+                     , modMean = mean(value)
+                     , modci90lo = quantile(value, 0.05)
+                     , modci90up = quantile(value, 0.95)
+                     ) %>%
+    dplyr::ungroup()
   
-  mod <- stan_glmer(count ~ site + (1|obs)
+  ggplot(dat,aes(value,site)) + geom_density_ridges()
+  
+  mod <- stan_glmer(value ~ site + (1|obs)
                     , data = dat
-                    , family = poisson
+                    , family = neg_binomial_2()
                     , adapt_delta = 0.99
                     )
-  
   
   datPred <- dat %>%
     dplyr::select(site) %>%
@@ -60,23 +70,37 @@
                      ) %>%
     dplyr::ungroup()
   
-  # prob of new value
-  newValue <- 17
+  # prob of new values
+  newValues <- tribble(
+    ~obs, ~site, ~newValue,
+    "DB", 1, 12,
+    "DB", 2, 14,
+    "AB", 1, 7,
+    "AB", 3, 4,
+    "CD", 2, 20
+    ) %>%
+    dplyr::mutate(site = factor(site, levels = levels(dat$site)))
   
   prob <- datPred %>%
-    dplyr::group_by(site) %>%
+    dplyr::left_join(newValues) %>%
+    dplyr::group_by(site,obs,newValue) %>%
     dplyr::summarise(n = n()
                      , med = median(value)
-                     , up95 = quantile(value,probs=0.975)
                      , lo95 = quantile(value,probs=0.025)
-                     , aboveLike = 100*sum(value>newValue)/n
-                     , belowLike = 100*sum(value<newValue)/n
-                     , equalLike = 100*sum(value==newValue)/n
+                     , up95 = quantile(value,probs=0.975)
+                     , aboveLike = 100*sum(newValue>=value)/n
+                     , belowLike = 100*sum(newValue<=value)/n
                      )
   
-  ggplot(datPred, aes(x=value,y=site)) +
-    geom_density_ridges() +
+  ggplot(datPred, aes(value,fill=site)) +
+    geom_density() +
     #geom_density_ridges(data = dat, aes(x=count,y=site),alpha=0.5) +
-    geom_vline(aes(xintercept = newValue),linetype=2)
+    geom_vline(data = newValues
+               , aes(xintercept = newValue, colour = obs)
+               ,size=2
+               ) +
+    facet_wrap(~site) +
+    scale_colour_viridis_d(option = "A") +
+    scale_fill_viridis_d()
   
   
